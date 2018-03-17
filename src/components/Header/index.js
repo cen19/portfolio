@@ -15,17 +15,37 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
+      <span>
+        <h1 style={{ 
+          display: 'inline-block',
+          margin: 0,
+          // float: 'left',
+        }}
+        >
+          <Link
+            to="/"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+            }}
+          >
+          `Wilson Cen`
+          </Link>
+        </h1>
+        <ul 
           style={{
-            color: 'white',
-            textDecoration: 'none',
+            float: 'right',
+            flex: 1,
+            flexDirection: 'column',
+            justifyContent: 'flex-start'
+
           }}
         >
-          `Wilson Cen`
-        </Link>
-      </h1>
+          <li>check1</li>
+          <li>check2</li>
+          <li>check3</li>
+        </ul>
+      </span>
     </div>
   </div>
 );
