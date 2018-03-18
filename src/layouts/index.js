@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
-require('prismjs/themes/prism-twilight.css');
-// import './index.css';
+import './index.css';
+require('prismjs/themes/prism-solarizedlight.css');
 
 
 const TemplateWrapper = ({ children }) => (
@@ -12,8 +12,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Wilson Cen's Portfolio"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'Wilson Cen', content: 'Portfolio' },
       ]}
     />
     <Header />
