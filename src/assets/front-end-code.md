@@ -1,5 +1,7 @@
 ---
-title: front end code
----
+  title: front end
 
-ALL MY CODE BELONGS TO HERE LUL
+---
+```
+console.log('hello world');
+```

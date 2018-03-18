@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
-import './index.css';
+require('prismjs/themes/prism-twilight.css');
+// import './index.css';
+
 
 const TemplateWrapper = ({ children }) => (
   <div>
