@@ -1,5 +1,8 @@
 ---
 title: React Front End Code
+order: 2
+github: https://github.com/gallant-geckos/gallant-geckos/blob/master/react-client/src/components/EntryForm.jsx
+description: dynamic entry form
 ---
 ```js
 import React from 'react';

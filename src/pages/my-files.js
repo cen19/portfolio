@@ -1,6 +1,6 @@
 import React from 'react';
 
-// this is for checking all the files I have in my src folder
+// this is for checking all the files I have in my src
 export default ({ data }) => {
   console.log(data);
   return (

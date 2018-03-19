@@ -1,0 +1,17 @@
+.expand-collapse {
+  vertical-align: middle;
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+  transition: color 0.15s ease-in;
+}
+
+.expand-collapse:hover {
+  text-decoration: none;
+  box-shadow: none;
+  opacity: 1;
+  transition: opacity 0.15s ease-in;
+}
+
+.expand-icon {
+  vertical-align: middle;
+}

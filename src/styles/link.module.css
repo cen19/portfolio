@@ -1,0 +1,29 @@
+.anchor {
+  color: #4169e1;
+  text-decoration: none;
+}
+
+.anchor:hover {
+  color: #000000;
+}
+
+.title {
+  color: #a9a9a9;
+}
+
+.title:hover {
+  color: #000000;
+}
+
+.title-fixed {
+  color: #000000;
+}
+
+.header {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.header:hover {
+  color: #ffffff;
+}

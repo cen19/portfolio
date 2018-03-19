@@ -1,5 +1,8 @@
 ---
   title: React Native Code
+  order: 1
+  github: https://github.com/talented-tomatoes/converge/blob/master/client/src/components/adminStack/SpeakerListEntry.js
+  description: created speaker entry within larger list to seperate concerns
 ---
 ```js
 import React, { Component } from 'react';
