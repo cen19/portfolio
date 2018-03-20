@@ -1,0 +1,72 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-21ab2b6f9c30266ea4d6.js",
+      "component---src-pages-index-js-21ab2b6f9c30266ea4d6.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---assets-react-native-code": [
+      "path---assets-react-native-code-e3de3164caa40d4a1ce1.js",
+      "path---assets-react-native-code-e3de3164caa40d4a1ce1.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-30743410977a67931926.js",
+      "component---src-templates-blog-post-js-30743410977a67931926.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-4128cb8e96f937ea51ed.js",
+      "component---src-layouts-index-js-4128cb8e96f937ea51ed.js.map"
+    ],
+    "path---assets-front-end-code": [
+      "path---assets-front-end-code-e192c3c9bcd4e690db4a.js",
+      "path---assets-front-end-code-e192c3c9bcd4e690db4a.js.map"
+    ],
+    "path---index": [
+      "path---index-c10ef89a38d5b772daa1.js",
+      "path---index-c10ef89a38d5b772daa1.js.map"
+    ],
+    "component---src-pages-my-files-js": [
+      "component---src-pages-my-files-js-6e047e377eec55571aa0.js",
+      "component---src-pages-my-files-js-6e047e377eec55571aa0.js.map"
+    ],
+    "path---my-files": [
+      "path---my-files-44cafac77193093a78a2.js",
+      "path---my-files-44cafac77193093a78a2.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-37e7ec241aad23eaba66.js",
+      "build-js-styles.css",
+      "commons-37e7ec241aad23eaba66.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---assets-db-code": [
+      "path---assets-db-code-491d0494c1055f4c1fed.js",
+      "path---assets-db-code-491d0494c1055f4c1fed.js.map"
+    ],
+    "path---assets-back-end-code": [
+      "path---assets-back-end-code-cf2e65a7e003a130ff7f.js",
+      "path---assets-back-end-code-cf2e65a7e003a130ff7f.js.map"
+    ],
+    "app": [
+      "app-b02e6ea80de3d723dc92.js",
+      "build-js-styles.css",
+      "app-b02e6ea80de3d723dc92.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
