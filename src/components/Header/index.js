@@ -34,6 +34,7 @@ const Header = () => (
         </h1>
         <ul 
           style={{
+            // color: 'white',
             float: 'right',
             flex: 1,
             flexDirection: 'column',

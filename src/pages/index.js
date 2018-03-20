@@ -9,19 +9,23 @@ const IndexPage = (props) => {
   const [
     reactNativeCode,
     frontEndCode,
-    rest1,
-    rest2
+    backEndCode,
+    dbCode
   ] = edges;
   console.log(reactNativeCode);
 
   return (
     <div>
-      <h1>Hi people</h1>
-      <p><Link to='/assets/react-native-code/'>check out some of the front end code I've written</Link></p>
+      <h3>Welcome! Check out some of the code I've written below.</h3>
+      <br />
+      <h5 style={{ color: 'rebeccapurple' }}>Front End</h5>
       <div>
         <DropDownSkill skill={reactNativeCode.node} />
+        <DropDownSkill skill={frontEndCode.node} />
       </div>
-      <p><Link to="/assets/front-end-code/">form code</Link></p>
+      <h5>Back End</h5>
+        <DropDownSkill skill={backEndCode.node} />
+      <h5>Diagrams</h5>
     </div>
   );
 };

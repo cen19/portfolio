@@ -11,21 +11,21 @@ class DropDownSkill extends React.Component {
     super(props);
 
     this.state = {
-      renderCodeSnippet: false
+      render: false
     };
 
-    this.handleClickToToggleSnippet = this.handleClickToToggleSnippet.bind(this);
-    this.handleClickToCloseSnippet = this.handleClickToCloseSnippet.bind(this);
+    this.handleClickToOpen = this.handleClickToOpen.bind(this);
+    this.handleClickToClose = this.handleClickToClose.bind(this);
   }
 
-  handleClickToToggleSnippet() {
+  handleClickToOpen() {
     this.setState({
-      renderCodeSnippet: !this.state.renderCodeSnippet
+      render: !this.state.render
     });
   }
 
-  handleClickToCloseSnippet() {
-    this.setState({ renderCodeSnippet: false });
+  handleClickToClose() {
+    this.setState({ render: false });
   }
 
   render() {
@@ -37,8 +37,8 @@ class DropDownSkill extends React.Component {
         <div
           style={{ display: 'inline' }}
         >
-          <div style={{ display: 'inline-block', cursor: 'pointer' }} onClick={this.handleClickToToggleSnippet}>
-            {this.state.renderCodeSnippet ?
+          <div style={{ display: 'inline-block', cursor: 'pointer' }} onClick={this.handleClickToOpen}>
+            {this.state.render ?
               feather('minus-circle', [25, 25], iconStyles['expand-collapse']) :
               feather('plus-circle', [25, 25], iconStyles['expand-collapse'])}
           </div>
@@ -64,9 +64,9 @@ class DropDownSkill extends React.Component {
           </span>
         </div>
 
-        {this.state.renderCodeSnippet ?
+        {this.state.render ?
           <CodeSnippet
-            handleClickToCloseSnippet={this.handleClickToCloseSnippet}
+            handleClickToClose={this.handleClickToClose}
             github={github}
             html={html} /> : null}
       </div>
