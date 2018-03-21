@@ -15,38 +15,34 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <span>
-        <h1 style={{ 
-          display: 'inline-block',
-          margin: 0,
-          // float: 'left',
-        }}
-        >
-          <Link
-            to="/"
-            style={{
-              color: 'white',
-              textDecoration: 'none',
-            }}
-          >
-          `Wilson Cen`
-          </Link>
-        </h1>
-        <ul 
+      <h1 style={{ 
+        display: 'inline',
+        margin: 0,
+      }}
+      >
+        <Link
+          to="/"
           style={{
-            // color: 'white',
-            float: 'right',
-            flex: 1,
-            flexDirection: 'column',
-            justifyContent: 'flex-start'
-
+            color: 'white',
+            textDecoration: 'none',
           }}
         >
-          <li>check1</li>
-          <li>check2</li>
-          <li>check3</li>
-        </ul>
-      </span>
+          `Wilson Cen`
+        </Link>
+      </h1>
+      <ul 
+        style={{
+          float: 'right',
+          listStyle: 'none',
+        }}
+      >
+        <li style={{ color: 'white' }}>
+          <Link to='/' style={{ color: 'white' }}>Home</Link>
+        </li>
+        <li>
+          <Link to='/contact/' style={{ color: 'white' }}>Contact</Link>
+        </li>
+      </ul>
     </div>
   </div>
 );
