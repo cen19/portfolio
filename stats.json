@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-21ab2b6f9c30266ea4d6.js",
-      "component---src-pages-index-js-21ab2b6f9c30266ea4d6.js.map"
+      "component---src-pages-index-js-afd881321835cfd17249.js",
+      "component---src-pages-index-js-afd881321835cfd17249.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-ab3e9d58eb6b174e7856.js",
+      "component---src-pages-contact-js-ab3e9d58eb6b174e7856.js.map"
     ],
     "path---assets-react-native-code": [
       "path---assets-react-native-code-e3de3164caa40d4a1ce1.js",
@@ -17,8 +21,8 @@
       "component---src-templates-blog-post-js-30743410977a67931926.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-4128cb8e96f937ea51ed.js",
-      "component---src-layouts-index-js-4128cb8e96f937ea51ed.js.map"
+      "component---src-layouts-index-js-358c0003514f81562068.js",
+      "component---src-layouts-index-js-358c0003514f81562068.js.map"
     ],
     "path---assets-front-end-code": [
       "path---assets-front-end-code-e192c3c9bcd4e690db4a.js",
@@ -33,8 +37,8 @@
       "component---src-pages-my-files-js-6e047e377eec55571aa0.js.map"
     ],
     "path---my-files": [
-      "path---my-files-dc9da1ef37b8477fbf8d.js",
-      "path---my-files-dc9da1ef37b8477fbf8d.js.map"
+      "path---my-files-c101c6425dd583e5e306.js",
+      "path---my-files-c101c6425dd583e5e306.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -50,6 +54,10 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---assets-db-code": [
       "path---assets-db-code-491d0494c1055f4c1fed.js",
       "path---assets-db-code-491d0494c1055f4c1fed.js.map"
@@ -59,9 +67,9 @@
       "path---assets-back-end-code-cf2e65a7e003a130ff7f.js.map"
     ],
     "app": [
-      "app-3e5400b3c198e27f989b.js",
+      "app-e3f16d8047a1f7e25271.js",
       "build-js-styles.css",
-      "app-3e5400b3c198e27f989b.js.map",
+      "app-e3f16d8047a1f7e25271.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [

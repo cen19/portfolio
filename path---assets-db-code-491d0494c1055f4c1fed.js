@@ -1,2 +1,2 @@
-webpackJsonp([0xbe1938ab59ea],{396:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:""}}},pathContext:{slug:"/assets/db-code/"}}}});
+webpackJsonp([0xbe1938ab59ea],{399:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:""}}},pathContext:{slug:"/assets/db-code/"}}}});
 //# sourceMappingURL=path---assets-db-code-491d0494c1055f4c1fed.js.map
