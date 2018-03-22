@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import DropDownSkill from '../components/DropDownSkill';
 import DropDownImage from '../components/DropDownImage';
 import DBSchemas from '../assets/Diagrams/SQL_Schemas.jpg';
+import SystemDiagram from '../assets/Diagrams/converge-admin-system-diagram.png';
 
 const IndexPage = (props) => {
   console.log('propsdataallmarkdownremark =>', props.data.allMarkdownRemark);
@@ -10,30 +11,37 @@ const IndexPage = (props) => {
   const [
     reactNativeCode,
     frontEndCode,
-    backEndCode,
-    dbCode
+    addPresentation,
+    editPresentation,
   ] = edges;
-  console.log(reactNativeCode);
 
   return (
     <div>
       <h3>Welcome! Check out some of the code I've written below.</h3>
       <br />
-      <h5 style={{ color: 'rebeccapurple' }}>Front End</h5>
+      <h3 style={{ color: 'rebeccapurple' }}>Front End</h3>
       <div>
         <DropDownSkill skill={reactNativeCode.node} />
         <DropDownSkill skill={frontEndCode.node} />
       </div>
-      <h5 style={{ color: 'rebeccapurple' }}>Back End</h5>
+      <h3 style={{ color: 'rebeccapurple' }}>Back End</h3>
       <div>
-        <DropDownSkill skill={backEndCode.node} />
+        <DropDownSkill skill={addPresentation.node} />
+        <DropDownSkill skill={editPresentation.node} />
       </div>
-      <h5 style={{ color: 'rebeccapurple' }}>Diagrams</h5>
+      <h3 style={{ color: 'rebeccapurple' }}>Diagrams</h3>
       <div>
         <DropDownImage 
           image={DBSchemas}
           title='DB Schemas'
           description='White boarded DB schemas to figure out the best approach to storing data associated with conferences.'
+        />
+      </div>
+      <div>
+        <DropDownImage 
+          image={SystemDiagram}
+          title='System Diagram'
+          description='System diagram for a conference management mobile app.'
         />
       </div>
     </div>
