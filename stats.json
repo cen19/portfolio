@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-afd881321835cfd17249.js",
-      "component---src-pages-index-js-afd881321835cfd17249.js.map"
+      "component---src-pages-index-js-714d4a29ebb10969f757.js",
+      "component---src-pages-index-js-714d4a29ebb10969f757.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -15,6 +15,10 @@
     "path---assets-react-native-code": [
       "path---assets-react-native-code-e3de3164caa40d4a1ce1.js",
       "path---assets-react-native-code-e3de3164caa40d4a1ce1.js.map"
+    ],
+    "path---assets-editting": [
+      "path---assets-editting-eea425202caf6aa3a6e8.js",
+      "path---assets-editting-eea425202caf6aa3a6e8.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-30743410977a67931926.js",
@@ -29,16 +33,16 @@
       "path---assets-front-end-code-e192c3c9bcd4e690db4a.js.map"
     ],
     "path---index": [
-      "path---index-c10ef89a38d5b772daa1.js",
-      "path---index-c10ef89a38d5b772daa1.js.map"
+      "path---index-1784f81ab7701aa6d884.js",
+      "path---index-1784f81ab7701aa6d884.js.map"
     ],
     "component---src-pages-my-files-js": [
       "component---src-pages-my-files-js-6e047e377eec55571aa0.js",
       "component---src-pages-my-files-js-6e047e377eec55571aa0.js.map"
     ],
     "path---my-files": [
-      "path---my-files-c101c6425dd583e5e306.js",
-      "path---my-files-c101c6425dd583e5e306.js.map"
+      "path---my-files-b4bc29f194afc71a929e.js",
+      "path---my-files-b4bc29f194afc71a929e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -58,18 +62,14 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---assets-db-code": [
-      "path---assets-db-code-491d0494c1055f4c1fed.js",
-      "path---assets-db-code-491d0494c1055f4c1fed.js.map"
-    ],
-    "path---assets-back-end-code": [
-      "path---assets-back-end-code-cf2e65a7e003a130ff7f.js",
-      "path---assets-back-end-code-cf2e65a7e003a130ff7f.js.map"
+    "path---assets-adding": [
+      "path---assets-adding-70e52734eb5053761dcd.js",
+      "path---assets-adding-70e52734eb5053761dcd.js.map"
     ],
     "app": [
-      "app-e3f16d8047a1f7e25271.js",
+      "app-81bf0b53bdb3d0c39061.js",
       "build-js-styles.css",
-      "app-e3f16d8047a1f7e25271.js.map",
+      "app-81bf0b53bdb3d0c39061.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
